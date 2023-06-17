@@ -1,4 +1,4 @@
-baseURL = 'https://srgsanky.github.io/strawmanblog/'
+baseURL = 'https://srgsanky.github.io/'
 languageCode = 'en-us'
 title = 'systems geek'
 theme = 'hugo-coder'
