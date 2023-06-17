@@ -54,7 +54,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo -s ${{github.workspace}}/quickstart -d ${{github.workspace}}/dist  --environment github-pages --log -v
+          hugo -s ${{github.workspace}}/ -d ${{github.workspace}}/dist  --environment github-pages --log -v
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
