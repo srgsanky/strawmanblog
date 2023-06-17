@@ -1,7 +1,7 @@
 baseURL = 'https://srgsanky.github.io/'
 languageCode = 'en-us'
 title = 'systems geek'
-theme = 'hugo-coder'
+theme = 'ananke'
 
 [markup.goldmark.renderer]
 unsafe = true
