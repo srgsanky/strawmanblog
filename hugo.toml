@@ -1,0 +1,26 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'systems geek'
+theme = 'hugo-coder'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+lineNos = true
+lineNoStart = 1
+style = "gruvbox"
+
+[params]
+    colorScheme="auto"
+    hidecolorschemetoggle = true
+
+# Menu links
+[[menu.main]]
+  name = "c programming"
+  weight = 1
+  url  = "cprogramming/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 2
+#   url = "about/"
