@@ -72,6 +72,10 @@ theme = 'ananke'
             `path: '${{github.workspace}}/dist'`
 1. Fix base URL on `hugo.toml` to `https://srgsanky.github.io/strawmanblog/`
 1. Add `public` and `resources` to `.gitignore`.
+1. Enable github actions for github pages for the repo.
+![](./Enable%20github%20actions%20for%20github%20pages.png)
+1. Verify that the github workflow is successful after pushing a change.
+![](./Actions%20page%20showing%20workflow%20run.png)
 
 ### About github pages
 
